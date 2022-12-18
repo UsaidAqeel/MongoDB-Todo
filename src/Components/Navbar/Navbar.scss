@@ -1,0 +1,29 @@
+.trans {
+  position: fixed !important;
+  z-index: 111;
+  width: 100%;
+  transition: 0.4s ease-in;
+  top: 0;
+  .href {
+    &:hover {
+      color: white;
+    }
+    color: white;
+  }
+}
+.navcolor {
+  position: fixed !important;
+  z-index: 111 !important;
+  width: 100%;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: 0.4s ease-in;
+  top: 0;
+  background-color: rgba(white, 0.8);
+  .href {
+    &:hover {
+      color: black;
+    }
+    color: black;
+  }
+}
